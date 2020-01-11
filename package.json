@@ -1,6 +1,6 @@
 {
   "name": "wavedrom",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "Digital timing diagram in your browser",
   "homepage": "http://wavedrom.com",
   "author": "alex.drom@gmail.com",
@@ -27,11 +27,8 @@
     "skins/**"
   ],
   "scripts": {
-    "test": "grunt",
+    "build": "npx webpack",
     "eslint": "eslint lib/*.js",
-    "unpkg": "browserify --standalone wavedrom lib/index.js > wavedrom.unpkg.js",
-    "cli": "{ echo '#!/usr/bin/env node' ; browserify --node bin/cli.js ; } > bin/wavedrom.js ; chmod +x bin/wavedrom.js",
-    "prepare": "npm run test && npm run unpkg",
     "cover": "nyc -r=text -r=lcov mocha"
   },
   "keywords": [
@@ -41,16 +38,7 @@
   ],
   "devDependencies": {
     "@drom/eslint-config": "^0.10.0",
-    "browserify": "^16.5.0",
     "chai": "^4.2.0",
-    "eslint": "^5.16.0",
-    "grunt": "^1.0.4",
-    "grunt-browserify": "^5.0.0",
-    "grunt-cli": "^1.2.0",
-    "grunt-contrib-clean": "^2.0.0",
-    "grunt-contrib-concat": "^1.0.1",
-    "grunt-contrib-uglify": "^4.0.1",
-    "grunt-eslint": "^21.0.0",
     "js-beautify": "^1.10.2",
     "jsof": "^0.3.2",
     "mocha": "^6.2.1",
@@ -58,10 +46,18 @@
   },
   "dependencies": {
     "bit-field": "^1.2.0",
+    "css-loader": "^3.4.2",
+    "eslint": "^6.8.0",
     "fs-extra": "^8.0.1",
     "json5": "^2.1.1",
+    "lodash": "^4.17.15",
     "onml": "^1.1.0",
+    "style-loader": "^1.1.2",
+    "to-string-loader": "^1.1.6",
     "tspan": "^0.3.6",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
     "yargs": "^14.2.0"
   },
   "eslintConfig": {

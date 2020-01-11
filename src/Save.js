@@ -1,17 +1,15 @@
-WaveDrom.appendSaveAsDialog = function (index, output) {
-    'use strict';
-    var div;
-    var menu;
+'use strict';
+window.WaveDrom.appendSaveAsDialog = function (index, output) {
+    let div;
+    let menu;
 
     function closeMenu(e) {
-        var left = parseInt(menu.style.left, 10);
-        var top = parseInt(menu.style.top, 10);
-        if (
-            e.x < left ||
+        const left = parseInt(menu.style.left, 10);
+        const top = parseInt(menu.style.top, 10);
+        if (e.x < left ||
             e.x > (left + menu.offsetWidth) ||
             e.y < top ||
-            e.y > (top + menu.offsetHeight)
-        ) {
+            e.y > (top + menu.offsetHeight)) {
             menu.parentNode.removeChild(menu);
             document.body.removeEventListener('mousedown', closeMenu, false);
         }
@@ -21,7 +19,7 @@ WaveDrom.appendSaveAsDialog = function (index, output) {
 
     div.childNodes[0].addEventListener('contextmenu',
         function (e) {
-            var list, savePng, saveSvg;
+            let list, savePng, saveSvg;
 
             menu = document.createElement('div');
 
@@ -48,7 +46,7 @@ WaveDrom.appendSaveAsDialog = function (index, output) {
 
             savePng.addEventListener('click',
                 function () {
-                    var html, firstDiv, svgdata, img, canvas, context, pngdata, a;
+                    let html, firstDiv, svgdata, img, canvas, context, pngdata, a;
 
                     html = '';
                     if (index !== 0) {
@@ -80,7 +78,7 @@ WaveDrom.appendSaveAsDialog = function (index, output) {
 
             saveSvg.addEventListener('click',
                 function () {
-                    var html,
+                    let html,
                         firstDiv,
                         svgdata,
                         a;
@@ -118,5 +116,3 @@ WaveDrom.appendSaveAsDialog = function (index, output) {
         false
     );
 };
-
-/* global WaveDrom, document */
