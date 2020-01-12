@@ -1,257 +1,230 @@
 text {
-    font-size: 11pt;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    font-stretch: normal;
-    text-align: center;
-    fill-opacity: 1;
-    font-family: Helvetica;
+  font-size: 11pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  text-align: center;
+  fill-opacity: 1;
+  font-family: Helvetica
 }
-
 .muted {
-    fill: #aaa
+  fill: #aaa
 }
-
 .warning {
-    fill: #f6b900
+  fill: #f6b900
 }
-
 .error {
-    fill: #f60000
+  fill: #f60000
 }
-
 .info {
-    fill: #0041c4
+  fill: #0041c4
 }
-
 .success {
-    fill: #00ab00
+  fill: #00ab00
 }
-
 .h1 {
-    font-size: 33pt;
-    font-weight: bold
+  font-size: 33pt;
+  font-weight: 700
 }
-
 .h2 {
-    font-size: 27pt;
-    font-weight: bold
+  font-size: 27pt;
+  font-weight: 700
 }
-
 .h3 {
-    font-size: 20pt;
-    font-weight: bold
+  font-size: 20pt;
+  font-weight: 700
 }
-
 .h4 {
-    font-size: 14pt;
-    font-weight: bold
+  font-size: 14pt;
+  font-weight: 700
 }
-
 .h5 {
-    font-size: 11pt;
-    font-weight: bold
+  font-size: 11pt;
+  font-weight: 700
 }
-
 .h6 {
-    font-size: 8pt;
-    font-weight: bold
+  font-size: 8pt;
+  font-weight: 700
 }
-
+.s0 {
+  fill: none;
+  stroke: #606060;
+  stroke-width: .75px;
+  stroke-linecap: round;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 4;
+  stroke-opacity: 1;
+  stroke-dasharray: none
+}
 .s1 {
-    fill: none;
-    stroke: #606060;
-    stroke-width: 0.75px;
-    stroke-linecap: round;
-    stroke-linejoin: miter;
-    stroke-miterlimit: 4;
-    stroke-opacity: 1;
-    stroke-dasharray: none
+  fill: none;
+  stroke: #606060;
+  stroke-width: .5;
+  stroke-linecap: round;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 4;
+  stroke-opacity: 1;
+  stroke-dasharray: none
 }
-
 .s2 {
-    fill: none;
-    stroke: #606060;
-    stroke-width: 0.5;
-    stroke-linecap: round;
-    stroke-linejoin: miter;
-    stroke-miterlimit: 4;
-    stroke-opacity: 1;
-    stroke-dasharray: none
+  color: #000;
+  fill: none;
+  stroke: #606060;
+  stroke-width: .75px;
+  stroke-linecap: round;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 4;
+  stroke-opacity: 1;
+  stroke-dasharray: 1,3;
+  stroke-dashoffset: 0;
+  marker: none;
+  visibility: visible;
+  display: inline;
+  overflow: visible;
+  enable-background: accumulate
 }
-
 .s3 {
-    color: #000;
-    fill: none;
-    stroke: #606060;
-    stroke-width: 0.75px;
-    stroke-linecap: round;
-    stroke-linejoin: miter;
-    stroke-miterlimit: 4;
-    stroke-opacity: 1;
-    stroke-dasharray: 1, 3;
-    stroke-dashoffset: 0;
-    marker: none;
-    visibility: visible;
-    display: inline;
-    overflow: visible;
-    enable-background: accumulate
+  color: #000;
+  fill: none;
+  stroke: #606060;
+  stroke-width: .75px;
+  stroke-linecap: round;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 4;
+  stroke-opacity: 1;
+  stroke-dasharray: none;
+  stroke-dashoffset: 0;
+  marker: none;
+  visibility: visible;
+  display: inline;
+  overflow: visible
 }
-
 .s4 {
-    color: #000;
-    fill: none;
-    stroke: #606060;
-    stroke-width: 0.75px;
-    stroke-linecap: round;
-    stroke-linejoin: miter;
-    stroke-miterlimit: 4;
-    stroke-opacity: 1;
-    stroke-dasharray: none;
-    stroke-dashoffset: 0;
-    marker: none;
-    visibility: visible;
-    display: inline;
-    overflow: visible
+  fill: #fff;
+  stroke: none
 }
-
 .s5 {
-    fill: #ffffff;
-    stroke: none
+  fill: #606060;
+  fill-opacity: 1;
+  stroke: none
 }
-
 .s6 {
-    fill: #606060;
-    fill-opacity: 1;
-    stroke: none
+  color: #000;
+  fill: #fff;
+  fill-opacity: 1;
+  fill-rule: nonzero;
+  stroke: none;
+  stroke-width: .25px;
+  marker: none;
+  visibility: visible;
+  display: inline;
+  overflow: visible;
+  enable-background: accumulate
 }
-
 .s7 {
-    color: #000;
-    fill: #fff;
-    fill-opacity: 1;
-    fill-rule: nonzero;
-    stroke: none;
-    stroke-width: 0.25px;
-    marker: none;
-    visibility: visible;
-    display: inline;
-    overflow: visible;
-    enable-background: accumulate
+  color: #000;
+  fill: #eaeaea;
+  fill-opacity: 1;
+  fill-rule: nonzero;
+  stroke: none;
+  stroke-width: .25px;
+  marker: none;
+  visibility: visible;
+  display: inline;
+  overflow: visible;
+  enable-background: accumulate
 }
-
 .s8 {
-    color: #000;
-    fill: #eaeaea;
-    fill-opacity: 1;
-    fill-rule: nonzero;
-    stroke: none;
-    stroke-width: 0.25px;
-    marker: none;
-    visibility: visible;
-    display: inline;
-    overflow: visible;
-    enable-background: accumulate
+  color: #000;
+  fill: #d7d7d7;
+  fill-opacity: 1;
+  fill-rule: nonzero;
+  stroke: none;
+  stroke-width: .25px;
+  marker: none;
+  visibility: visible;
+  display: inline;
+  overflow: visible;
+  enable-background: accumulate
 }
-
 .s9 {
-    color: #000;
-    fill: #d7d7d7;
-    fill-opacity: 1;
-    fill-rule: nonzero;
-    stroke: none;
-    stroke-width: 0.25px;
-    marker: none;
-    visibility: visible;
-    display: inline;
-    overflow: visible;
-    enable-background: accumulate
+  color: #000;
+  fill: silver;
+  fill-opacity: 1;
+  fill-rule: nonzero;
+  stroke: none;
+  stroke-width: .25px;
+  marker: none;
+  visibility: visible;
+  display: inline;
+  overflow: visible;
+  enable-background: accumulate
 }
-
 .s10 {
-    color: #000;
-    fill: #c0c0c0;
-    fill-opacity: 1;
-    fill-rule: nonzero;
-    stroke: none;
-    stroke-width: 0.25px;
-    marker: none;
-    visibility: visible;
-    display: inline;
-    overflow: visible;
-    enable-background: accumulate
+  color: #000;
+  fill: #b0b0b0;
+  fill-opacity: 1;
+  fill-rule: nonzero;
+  stroke: none;
+  stroke-width: .25px;
+  marker: none;
+  visibility: visible;
+  display: inline;
+  overflow: visible;
+  enable-background: accumulate
 }
-
 .s11 {
-    color: #000;
-    fill: #b0b0b0;
-    fill-opacity: 1;
-    fill-rule: nonzero;
-    stroke: none;
-    stroke-width: 0.25px;
-    marker: none;
-    visibility: visible;
-    display: inline;
-    overflow: visible;
-    enable-background: accumulate
+  color: #000;
+  fill: #a0a0a0;
+  fill-opacity: 1;
+  fill-rule: nonzero;
+  stroke: none;
+  stroke-width: .25px;
+  marker: none;
+  visibility: visible;
+  display: inline;
+  overflow: visible;
+  enable-background: accumulate
 }
-
 .s12 {
-    color: #000;
-    fill: #a0a0a0;
-    fill-opacity: 1;
-    fill-rule: nonzero;
-    stroke: none;
-    stroke-width: 0.25px;
-    marker: none;
-    visibility: visible;
-    display: inline;
-    overflow: visible;
-    enable-background: accumulate
+  color: #000;
+  fill: #909090;
+  fill-opacity: 1;
+  fill-rule: nonzero;
+  stroke: none;
+  stroke-width: .25px;
+  marker: none;
+  visibility: visible;
+  display: inline;
+  overflow: visible;
+  enable-background: accumulate
 }
-
 .s13 {
-    color: #000;
-    fill: #909090;
-    fill-opacity: 1;
-    fill-rule: nonzero;
-    stroke: none;
-    stroke-width: 0.25px;
-    marker: none;
-    visibility: visible;
-    display: inline;
-    overflow: visible;
-    enable-background: accumulate
+  color: #000;
+  fill: grey;
+  fill-opacity: 1;
+  fill-rule: nonzero;
+  stroke: none;
+  stroke-width: .25px;
+  marker: none;
+  visibility: visible;
+  display: inline;
+  overflow: visible;
+  enable-background: accumulate
 }
-
 .s14 {
-    color: #000;
-    fill: #808080;
-    fill-opacity: 1;
-    fill-rule: nonzero;
-    stroke: none;
-    stroke-width: 0.25px;
-    marker: none;
-    visibility: visible;
-    display: inline;
-    overflow: visible;
-    enable-background: accumulate
+  fill: #0041c4;
+  fill-opacity: 1;
+  stroke: none
 }
-
 .s15 {
-    fill: #0041c4;
-    fill-opacity: 1;
-    stroke: none
-}
-
-.s16 {
-    fill: none;
-    stroke: #0041c4;
-    stroke-width: 0.75px;
-    stroke-linecap: round;
-    stroke-linejoin: miter;
-    stroke-miterlimit: 4;
-    stroke-opacity: 1;
-    stroke-dasharray: none
+  fill: none;
+  stroke: #0041c4;
+  stroke-width: .75px;
+  stroke-linecap: round;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 4;
+  stroke-opacity: 1;
+  stroke-dasharray: none
 }

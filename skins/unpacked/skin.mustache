@@ -1,0 +1,14 @@
+'use strict';
+const css = require('./{{name}}.css');
+
+const {{name}}Skin = {
+    socketSize: {{{socketSize}}},
+    css: css,
+    defs: {
+{{#defs}}
+        '{{id}}': {{{value}}},
+{{/defs}}
+    }
+};
+
+module.exports = {{name}}Skin;
