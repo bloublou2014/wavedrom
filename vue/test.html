@@ -16,10 +16,9 @@
     <div>
         <textarea style="width: 100%;height: 300px" v-model="text" placeholder="JSON (WaveDrom)"></textarea>
         <br>
-        <div  :id="id"></div>
+        <div :id="id"></div>
     </div>
 </div>
-
 <script>
     // window.WaveSkin = require('wavedrom/skins/default.js');
     // var WaveDrom = require('wavedrom');
@@ -31,36 +30,36 @@
             id: Number,
         },*/
         data: {
-            id:0,
-          text:'{signal: [\n' +
-              '  {name: \'i_Clk\',      wave: \'Q...|..|......\',  \n' +
-              '                       node: \'............\'},  \n' +
-              '  {name: \'i_Switch_1\', wave: \'0.1.|0.|.1.|0.\',  \n' +
-              '                       node: \'..a..de.....\'},\n' +
-              '  {},\n' +
-              '  {name: \'r_Switch_1\', wave: \'0..1|.0|..1|.0\',  \n' +
-              '                       node: \'...c.hf.....\'},\n' +
-              '  {name: \'r_LED_1\',    wave: \'0...|.1|...|.0\',  \n' +
-              '                       node: \'......g.....\'},\n' +
-              '  {},\n' +
-              '  {name: \'o_LED_1\',    wave: \'0...|.1|...|.0\',  \n' +
-              '                       node: \'............\'},\n' +
-              '],\n' +
-              ' edge: [\n' +
-              '    \'a~>c flip\',\n' +
-              '    \'d~>f flop\', \n' +
-              '    \'h~>g\', \'e~>g\', \n' +
-              ' ],\n' +
-              ' head:{   \n' +
-              '   tick:0,\n' +
-              ' },\n' +
-              '  config: { hscale: 2 }}\n'
+            id: 0,
+            text: '{signal: [\n' +
+                '  {name: \'i_Clk\',      wave: \'P...|..|......\',  \n' +
+                '      period:2,          node: \'............\'},  \n' +
+                '  {name: \'i_Switch_1\', wave: \'0.1.|0.|.1.|0.\',  \n' +
+                '     shift:0.5,          node: \'..a..de.....\'},\n' +
+                '  {},\n' +
+                '  {name: \'r_Switch_1\', wave: \'0..1|.0|..1|.0\',  \n' +
+                '                       node: \'...c.hf.....\'},\n' +
+                '  {name: \'r_LED_1\',    wave: \'0...|.1|...|.0\',  \n' +
+                '                       node: \'......g.....\'},\n' +
+                '  {},\n' +
+                '  {name: \'o_LED_1\',    wave: \'0...|.1|...|.0\',  \n' +
+                '                       node: \'............\'},\n' +
+                '],\n' +
+                ' edge: [\n' +
+                '    \'a~>c flip\',\n' +
+                '    \'d~>f flop\', \n' +
+                '    \'h~>g\', \'e~>g\', \n' +
+                ' ],\n' +
+                ' head:{   \n' +
+                '   tick:0,\n' +
+                ' },\n' +
+                '  config: { hscale: 1 }}\n'
         },
 
         watch: {
             text: function () {
                 const j = JSON5.parse(this.text);
-                WaveDrom.renderWaveForm(this.id, j, '');
+                WaveDrom.renderWaveForm(j, this.id);
             }
         }
     });

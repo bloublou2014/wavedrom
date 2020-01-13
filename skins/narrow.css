@@ -17,6 +17,9 @@ text {
 .error {
   fill: #f60000
 }
+.serror {
+  stroke: #f60000!important
+}
 .info {
   fill: #0041c4
 }

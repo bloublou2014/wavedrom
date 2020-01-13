@@ -11,7 +11,7 @@ const json5 = require('json5');
 
 // region constants
 const skinTpl = fs.readFileSync(path.join(__dirname, 'skin.mustache'), 'utf8');
-const defaultCss = 'text{font-size:11pt;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;fill-opacity:1;font-family:Helvetica}.muted{fill:#aaa}.warning{fill:#f6b900}.error{fill:#f60000}.info{fill:#0041c4}.success{fill:#00ab00}.h1{font-size:33pt;font-weight:bold}.h2{font-size:27pt;font-weight:bold}.h3{font-size:20pt;font-weight:bold}.h4{font-size:14pt;font-weight:bold}.h5{font-size:11pt;font-weight:bold}.h6{font-size:8pt;font-weight:bold}';
+const defaultCss = fs.readFileSync(path.join(__dirname, 'common.css'), 'utf8');
 const defaultArrows = {
     arrowhead: {type: 'marker', 'style': 'fill:#0041c4', 'markerHeight': '7', 'markerWidth': '10', 'markerUnits': 'strokeWidth', 'viewBox': '0 -4 11 8', 'refX': '15', 'refY': '0', 'orient': 'auto', svg: [['path', {'d': 'M0 -4 11 0 0 4z'}]]},
     arrowtail: {type: 'marker', 'style': 'fill:#0041c4', 'markerHeight': '7', 'markerWidth': '10', 'markerUnits': 'strokeWidth', 'viewBox': '-11 -4 11 8', 'refX': '-15', 'refY': '0', 'orient': 'auto', svg: [['path', {'d': 'M0 -4 -11 0 0 4z'}]]}
