@@ -88,11 +88,19 @@ function convertChildrenSvg(id, cssClasses, children) {
 // region Css optimization
 
 // optimize CSS classes to use the same classes for different svg element classes
+
+/* remove black stroke */
+function removeBlackStroke(css) {
+    // color: #000;
+    // stroke: #000;
+    return css.replace(/(color|stroke|fill)\s*:\s*#[0]{3,6}\s*;/g, '');
+}
+
 // avoiding using 's[1-9]' format > stick to the svg element's id to quickly find them back
 function optimizeCssClasses(cssClasses) {
     // reverse dict
     const fullCss = _.map(cssClasses, (css, id) => {
-        return '.s' + id + ' {' + css + '}';
+        return '.s' + id + ' {' + removeBlackStroke(css) + '}';
     }).join('\n');
     // reverse cssClasses => same classes will fall to the same bucket
     return new CleanCSS({format: 'beautify'}).minify(defaultCss + '\n' + fullCss);

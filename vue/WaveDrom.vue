@@ -11,15 +11,19 @@
     export default {
         name: 'WaveDrom',
         props: {
-            id: Number,
+
             parentText: String
         },
         data() {
             return {
+                id: null,
                 text: this.parentText
             };
         },
         watch: {
+            /**
+             * Render when text value is changed
+             */
             text: function () {
                 WaveDrom.renderWaveForm(this.id, JSON.parse(this.text), 'a');
             }

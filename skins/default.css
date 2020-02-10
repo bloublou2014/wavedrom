@@ -50,9 +50,303 @@ text {
   font-size: 8pt;
   font-weight: 700
 }
+use.white {
+  stroke: #fff;
+  fill: #fff;
+  color: #fff
+}
+use.default {
+  stroke: #e1e5ec;
+  fill: #e1e5ec;
+  color: #e1e5ec
+}
+use.dark {
+  stroke: #2f353b;
+  fill: #2f353b;
+  color: #2f353b
+}
+use.blue {
+  stroke: #3598dc;
+  fill: #3598dc;
+  color: #3598dc
+}
+use.blue-madison {
+  stroke: #578ebe;
+  fill: #578ebe;
+  color: #578ebe
+}
+use.blue-chambray {
+  stroke: #2c3e50;
+  fill: #2c3e50;
+  color: #2c3e50
+}
+use.blue-ebonyclay {
+  stroke: #22313f;
+  fill: #22313f;
+  color: #22313f
+}
+use.blue-hoki {
+  stroke: #67809f;
+  fill: #67809f;
+  color: #67809f
+}
+use.blue-steel {
+  stroke: #4b77be;
+  fill: #4b77be;
+  color: #4b77be
+}
+use.blue-soft {
+  stroke: #4c87b9;
+  fill: #4c87b9;
+  color: #4c87b9
+}
+use.blue-dark {
+  stroke: #5e738b;
+  fill: #5e738b;
+  color: #5e738b
+}
+use.blue-sharp {
+  stroke: #5c9bd1;
+  fill: #5c9bd1;
+  color: #5c9bd1
+}
+use.blue-oleo {
+  stroke: #94a0b2;
+  fill: #94a0b2;
+  color: #94a0b2
+}
+use.green {
+  stroke: #32c5d2;
+  fill: #32c5d2;
+  color: #32c5d2
+}
+use.green-meadow {
+  stroke: #1bbc9b;
+  fill: #1bbc9b;
+  color: #1bbc9b
+}
+use.green-seagreen {
+  stroke: #1ba39c;
+  fill: #1ba39c;
+  color: #1ba39c
+}
+use.green-turquoise {
+  stroke: #36d7b7;
+  fill: #36d7b7;
+  color: #36d7b7
+}
+use.green-haze {
+  stroke: #44b6ae;
+  fill: #44b6ae;
+  color: #44b6ae
+}
+use.green-jungle {
+  stroke: #26c281;
+  fill: #26c281;
+  color: #26c281
+}
+use.green-soft {
+  stroke: #3faba4;
+  fill: #3faba4;
+  color: #3faba4
+}
+use.green-dark {
+  stroke: #4db3a2;
+  fill: #4db3a2;
+  color: #4db3a2
+}
+use.green-sharp {
+  stroke: #2ab4c0;
+  fill: #2ab4c0;
+  color: #2ab4c0
+}
+use.green-steel {
+  stroke: #29b4b6;
+  fill: #29b4b6;
+  color: #29b4b6
+}
+use.grey {
+  stroke: #e5e5e5;
+  fill: #e5e5e5;
+  color: #e5e5e5
+}
+use.grey-steel {
+  stroke: #e9edef;
+  fill: #e9edef;
+  color: #e9edef
+}
+use.grey-cararra {
+  stroke: #fafafa;
+  fill: #fafafa;
+  color: #fafafa
+}
+use.grey-gallery {
+  stroke: #555;
+  fill: #555;
+  color: #555
+}
+use.grey-cascade {
+  stroke: #95a5a6;
+  fill: #95a5a6;
+  color: #95a5a6
+}
+use.grey-silver {
+  stroke: #bfbfbf;
+  fill: #bfbfbf;
+  color: #bfbfbf
+}
+use.grey-salsa {
+  stroke: #acb5c3;
+  fill: #acb5c3;
+  color: #acb5c3
+}
+use.grey-salt {
+  stroke: #bfcad1;
+  fill: #bfcad1;
+  color: #bfcad1
+}
+use.grey-mint {
+  stroke: #525e64;
+  fill: #525e64;
+  color: #525e64
+}
+use.red {
+  stroke: #e7505a;
+  fill: #e7505a;
+  color: #e7505a
+}
+use.red-pink {
+  stroke: #e08283;
+  fill: #e08283;
+  color: #e08283
+}
+use.red-sunglo {
+  stroke: #e26a6a;
+  fill: #e26a6a;
+  color: #e26a6a
+}
+use.red-intense {
+  stroke: #e35b5a;
+  fill: #e35b5a;
+  color: #e35b5a
+}
+use.red-thunderbird {
+  stroke: #d91e18;
+  fill: #d91e18;
+  color: #d91e18
+}
+use.red-flamingo {
+  stroke: #ef4836;
+  fill: #ef4836;
+  color: #ef4836
+}
+use.red-soft {
+  stroke: #d05454;
+  fill: #d05454;
+  color: #d05454
+}
+use.red-haze {
+  stroke: #f36a5a;
+  fill: #f36a5a;
+  color: #f36a5a
+}
+use.red-mint {
+  stroke: #e43a45;
+  fill: #e43a45;
+  color: #e43a45
+}
+use.yellow {
+  stroke: #c49f47;
+  fill: #c49f47;
+  color: #c49f47
+}
+use.yellow-gold {
+  stroke: #e87e04;
+  fill: #e87e04;
+  color: #e87e04
+}
+use.yellow-casablanca {
+  stroke: #f2784b;
+  fill: #f2784b;
+  color: #f2784b
+}
+use.yellow-crusta {
+  stroke: #f3c200;
+  fill: #f3c200;
+  color: #f3c200
+}
+use.yellow-lemon {
+  stroke: #f7ca18;
+  fill: #f7ca18;
+  color: #f7ca18
+}
+use.yellow-saffron {
+  stroke: #f4d03f;
+  fill: #f4d03f;
+  color: #f4d03f
+}
+use.yellow-soft {
+  stroke: #c8d046;
+  fill: #c8d046;
+  color: #c8d046
+}
+use.yellow-haze {
+  stroke: #c5bf66;
+  fill: #c5bf66;
+  color: #c5bf66
+}
+use.yellow-mint {
+  stroke: #c5b96b;
+  fill: #c5b96b;
+  color: #c5b96b
+}
+use.purple {
+  stroke: #8e44ad;
+  fill: #8e44ad;
+  color: #8e44ad
+}
+use.purple-plum {
+  stroke: #8775a7;
+  fill: #8775a7;
+  color: #8775a7
+}
+use.purple-medium {
+  stroke: #bf55ec;
+  fill: #bf55ec;
+  color: #bf55ec
+}
+use.purple-studio {
+  stroke: #8e44ad;
+  fill: #8e44ad;
+  color: #8e44ad
+}
+use.purple-wisteria {
+  stroke: #9b59b6;
+  fill: #9b59b6;
+  color: #9b59b6
+}
+use.purple-seance {
+  stroke: #9a12b3;
+  fill: #9a12b3;
+  color: #9a12b3
+}
+use.purple-intense {
+  stroke: #8775a7;
+  fill: #8775a7;
+  color: #8775a7
+}
+use.purple-sharp {
+  stroke: #796799;
+  fill: #796799;
+  color: #796799
+}
+use.purple-soft {
+  stroke: #8877a9;
+  fill: #8877a9;
+  color: #8877a9
+}
 .s0 {
   fill: none;
-  stroke: #000;
   stroke-width: 1;
   stroke-linecap: round;
   stroke-linejoin: miter;
@@ -62,7 +356,6 @@ text {
 }
 .s1 {
   fill: none;
-  stroke: #000;
   stroke-width: .5;
   stroke-linecap: round;
   stroke-linejoin: miter;
@@ -71,9 +364,7 @@ text {
   stroke-dasharray: none
 }
 .s2 {
-  color: #000;
   fill: none;
-  stroke: #000;
   stroke-width: 1;
   stroke-linecap: round;
   stroke-linejoin: miter;
@@ -88,9 +379,7 @@ text {
   enable-background: accumulate
 }
 .s3 {
-  color: #000;
   fill: none;
-  stroke: #000;
   stroke-width: 1;
   stroke-linecap: round;
   stroke-linejoin: miter;
@@ -108,12 +397,10 @@ text {
   stroke: none
 }
 .s5 {
-  fill: #000;
   fill-opacity: 1;
   stroke: none
 }
 .s6 {
-  color: #000;
   fill: #fff;
   fill-opacity: 1;
   fill-rule: nonzero;
@@ -126,7 +413,6 @@ text {
   enable-background: accumulate
 }
 .s7 {
-  color: #000;
   fill: #ffffb4;
   fill-opacity: 1;
   fill-rule: nonzero;
@@ -139,7 +425,6 @@ text {
   enable-background: accumulate
 }
 .s8 {
-  color: #000;
   fill: #ffe0b9;
   fill-opacity: 1;
   fill-rule: nonzero;
@@ -152,7 +437,6 @@ text {
   enable-background: accumulate
 }
 .s9 {
-  color: #000;
   fill: #b9e0ff;
   fill-opacity: 1;
   fill-rule: nonzero;
@@ -165,7 +449,6 @@ text {
   enable-background: accumulate
 }
 .s10 {
-  color: #000;
   fill: #ccfdfe;
   fill-opacity: 1;
   fill-rule: nonzero;
@@ -178,7 +461,6 @@ text {
   enable-background: accumulate
 }
 .s11 {
-  color: #000;
   fill: #cdfdc5;
   fill-opacity: 1;
   fill-rule: nonzero;
@@ -191,7 +473,6 @@ text {
   enable-background: accumulate
 }
 .s12 {
-  color: #000;
   fill: #f0c1fb;
   fill-opacity: 1;
   fill-rule: nonzero;
@@ -204,7 +485,6 @@ text {
   enable-background: accumulate
 }
 .s13 {
-  color: #000;
   fill: #f5c2c0;
   fill-opacity: 1;
   fill-rule: nonzero;
@@ -228,6 +508,15 @@ text {
   stroke-linecap: round;
   stroke-linejoin: miter;
   stroke-miterlimit: 4;
-  stroke-opacity: 1;
-  stroke-dasharray: none
+  stroke-dasharray: none;
+  stroke-opacity: 1
+}
+.s16 {
+  fill: none;
+  stroke-width: 1;
+  stroke-linecap: round;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 4;
+  stroke-dasharray: none;
+  stroke-opacity: 1
 }

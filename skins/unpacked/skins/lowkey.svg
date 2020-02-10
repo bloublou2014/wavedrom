@@ -5560,4 +5560,44 @@
                 id="pclk25_2.5-1-4"
                 sodipodi:nodetypes="cc"/>
     </g>
+    <g
+            id="0ma"
+            transform="translate(287,10)">
+        <path
+                inkscape:connector-curvature="0"
+                d="M 0,20 H 10 L 16,0 h 4"
+                style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                id="zmo_30_25-5"
+                sodipodi:nodetypes="cccc" />
+    </g>
+    <g
+            id="am0"
+            transform="translate(286,40)">
+        <path
+                inkscape:connector-curvature="0"
+                d="M 0,0 H 10 L 16,20 H 20"
+                style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                id="oz_40_25_1-88"
+                sodipodi:nodetypes="cccc" />
+    </g>
+    <g
+            id="0mb"
+            transform="translate(321,15)">
+        <path
+                inkscape:connector-curvature="0"
+                d="M 0,20 H 2 V 0 h 8 v 20 h 3 V 0 h 6 v 20 h 4 V 0 h 17"
+                style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                id="zmo_30_25-5-7"
+                sodipodi:nodetypes="cccc" />
+    </g>
+    <g
+            id="bm0"
+            transform="translate(320,40)">
+        <path
+                inkscape:connector-curvature="0"
+                d="M 0,0 H 2 V 20 h 8 V 0 h 3 V 20 h 6 V 0 h 4 V 20 h 17"
+                style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                id="oz_40_25_1-88-4"
+                sodipodi:nodetypes="cccc" />
+    </g>
 </svg>

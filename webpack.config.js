@@ -8,6 +8,7 @@ module.exports = {
     entry: path.resolve(__dirname, 'lib', 'index.js'),
     devtool: 'source-map',
     output: {
+        // path: path.resolve(__dirname, 'www', 'public', 'lib', 'dist'),
         path: path.resolve(__dirname, 'dist'),
         filename: 'wavedrom.js'
     },

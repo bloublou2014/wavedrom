@@ -1,0 +1,9 @@
+{
+  "name": "vue-wavedrom-app",
+  "short_name": "vue-wavedrom-app",
+  "icons": [
+
+  ],
+  "start_url": "/index.html",
+  "display": "standalone"
+}

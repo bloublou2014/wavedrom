@@ -8,3 +8,6 @@ wavedrom.js
 wavedrom.min.js
 wavedrom.unpkg.js
 /.idea
+/_Deparsed_XSubs.pm
+/www/dist
+/www/yarn-error.log
