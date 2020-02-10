@@ -5600,4 +5600,24 @@
                 id="oz_40_25_1-88-4"
                 sodipodi:nodetypes="cccc" />
     </g>
+    <g
+            id="0mc"
+            transform="translate(422,10)">
+        <path
+                inkscape:connector-curvature="0"
+                d="M 0,20 V 0 L 20,0"
+                style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                id="zmo_30_25-5-3"
+                sodipodi:nodetypes="cccc" />
+    </g>
+    <g
+            id="cm0"
+            transform="translate(421,40)">
+        <path
+                inkscape:connector-curvature="0"
+                d="M 0,0 V 20 L 20,20"
+                style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                id="oz_40_25_1-88-3"
+                sodipodi:nodetypes="cccc" />
+    </g>
 </svg>
