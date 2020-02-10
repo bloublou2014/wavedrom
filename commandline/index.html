@@ -32,7 +32,7 @@
 		}
 		txt = document.getElementById ('InputJSON_0');
 		txt.value = data;
-		WaveDrom.EditorRefresh();
+		WaveDrom.editorRefresh();
 		svg = document.getElementById ('svgcontent_0');
 		ser = new XMLSerializer();
 		mfs.writeFile(fnames[1], ser.serializeToString(svg), owrite)
